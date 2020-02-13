@@ -1,6 +1,6 @@
 {% set name = "goosempl" %}
-{% set version = "0.2.26" %}
-{% set sha256 = "7a4fa5f9583f9e9c91168eb55e3e9b91fd3f8bdecd99ca2f28922f5effc4a5c8" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "6cb66adbf443a0cb3cd727654e4874090fa7a1e53e87851a9d7878aca6e06f85" %}
 
 package:
   name: {{ name|lower }}
