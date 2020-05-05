@@ -1,6 +1,6 @@
 {% set name = "goosempl" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "6cb66adbf443a0cb3cd727654e4874090fa7a1e53e87851a9d7878aca6e06f85" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "712ad9a2d30233cc47b3dfdf5ec0bd41a357222d3721583df6bc350c61dd525b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -34,8 +34,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A simple wrapper around pyplot.'
-  description: 'A simple wrapper around pyplot.'
+  summary: A simple wrapper around pyplot.
+  description: A simple wrapper around pyplot.
   doc_url: https://github.com/tdegeus/GooseMPL
   dev_url: https://github.com/tdegeus/GooseMPL
 
