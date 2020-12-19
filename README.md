@@ -5,9 +5,13 @@ Home: https://github.com/tdegeus/GooseMPL
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/goosempl-feedstock/blob/master/LICENSE.txt)
 
 Summary: A simple wrapper around pyplot.
+
+Development: https://github.com/tdegeus/GooseMPL
+
+Documentation: https://github.com/tdegeus/GooseMPL
 
 A simple wrapper around pyplot.
 
