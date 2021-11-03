@@ -17,13 +17,15 @@ build:
 
 requirements:
   host:
-    - python >=3
     - pip
+    - python >=3
     - setuptools_scm
   run:
-    - python >=3
-    - numpy
+    - deprecation
     - matplotlib-base
+    - numpy
+    - python >=3
+    - scipy
 
 test:
   imports:
