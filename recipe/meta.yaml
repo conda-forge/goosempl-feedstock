@@ -25,6 +25,7 @@ requirements:
     - matplotlib-base
     - numpy
     - python >=3
+    - pyyaml
     - scipy
 
 test:
