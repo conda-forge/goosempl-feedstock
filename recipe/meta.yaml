@@ -1,5 +1,5 @@
 {% set name = "GooseMPL" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tdegeus/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 94cb9011ddd2b85c8fb22f9151f16b1b3fdf68f59f9bed1aeeed6f86d7eb241f
+  sha256: 37b894f15c4c2944ec4f1f20af2ebde1eede5b7622343f72e92d18a89388365a
 
 build:
   number: 0
@@ -25,6 +25,7 @@ requirements:
     - matplotlib-base
     - numpy
     - python >=3
+    - pyyaml
     - scipy
 
 test:
