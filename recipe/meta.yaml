@@ -1,5 +1,5 @@
 {% set name = "GooseMPL" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tdegeus/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 3e87ac0a818802aa590b6cbcc87c9e21892b56e9e741009f4f74a9131c4e2d8c
+  sha256: 352607703589e0fa478679b0c094adbdd2e4f905aa5549d80bb8dc7cb5cf98ca
 
 build:
   number: 0
