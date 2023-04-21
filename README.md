@@ -1,11 +1,11 @@
-About goosempl
-==============
+About goosempl-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/goosempl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tdegeus/GooseMPL
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/goosempl-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple wrapper around pyplot.
 
